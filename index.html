@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mine Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body onload="buildMine()">
+    <div class="title">
+        <p>Mine Game</p>
+    </div>
+    
+    <div class="main">
+        <table border="1">
+            <tr>
+                <td class="cells" id="11" onclick="pressBtn(this)"></td>
+                <td class="cells" id="12" onclick="pressBtn(this)"></td>
+                <td class="cells" id="13" onclick="pressBtn(this)"></td>
+                <td class="cells" id="14" onclick="pressBtn(this)"></td>
+                <td class="cells" id="15" onclick="pressBtn(this)"></td>
+                <td class="cells" id="16" onclick="pressBtn(this)"></td>
+            </tr>
+            <tr>
+                <td class="cells" id="21" onclick="pressBtn(this)"></td>
+                <td class="cells" id="22" onclick="pressBtn(this)"></td>
+                <td class="cells" id="23" onclick="pressBtn(this)"></td>
+                <td class="cells" id="24" onclick="pressBtn(this)"></td>
+                <td class="cells" id="25" onclick="pressBtn(this)"></td>
+                <td class="cells" id="26" onclick="pressBtn(this)"></td>
+            </tr>
+            <tr>
+                <td class="cells" id="31" onclick="pressBtn(this)"></td>
+                <td class="cells" id="32" onclick="pressBtn(this)"></td>
+                <td class="cells" id="33" onclick="pressBtn(this)"></td>
+                <td class="cells" id="34" onclick="pressBtn(this)"></td>
+                <td class="cells" id="35" onclick="pressBtn(this)"></td>
+                <td class="cells" id="36" onclick="pressBtn(this)"></td>
+            </tr>
+            <tr>
+                <td class="cells" id="41" onclick="pressBtn(this)"></td>
+                <td class="cells" id="42" onclick="pressBtn(this)"></td>
+                <td class="cells" id="43" onclick="pressBtn(this)"></td>
+                <td class="cells" id="44" onclick="pressBtn(this)"></td>
+                <td class="cells" id="45" onclick="pressBtn(this)"></td>
+                <td class="cells" id="46" onclick="pressBtn(this)"></td>
+            </tr>
+            <tr>
+                <td class="cells" id="51" onclick="pressBtn(this)"></td>
+                <td class="cells" id="52" onclick="pressBtn(this)"></td>
+                <td class="cells" id="53" onclick="pressBtn(this)"></td>
+                <td class="cells" id="54" onclick="pressBtn(this)"></td>
+                <td class="cells" id="55" onclick="pressBtn(this)"></td>
+                <td class="cells" id="56" onclick="pressBtn(this)"></td>
+            </tr>
+            <tr>
+                <td class="cells" id="61" onclick="pressBtn(this)"></td>
+                <td class="cells" id="62" onclick="pressBtn(this)"></td>
+                <td class="cells" id="63" onclick="pressBtn(this)"></td>
+                <td class="cells" id="64" onclick="pressBtn(this)"></td>
+                <td class="cells" id="65" onclick="pressBtn(this)"></td>
+                <td class="cells" id="66" onclick="pressBtn(this)"></td>
+            </tr>
+        </table>
+    </div>
+    <script src="./script.js"></script>
+    <audio src="./btnclick.mp3" id="clickSound"></audio>
+    <audio src="./gameover.mp3" id="gameOver"></audio>
+    <audio src="./gameWin.mp3" id="gameWin"></audio>
+</body>
+</html>
